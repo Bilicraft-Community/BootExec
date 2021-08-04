@@ -1,0 +1,11 @@
+commands:
+  - rm -rf world
+  - rm -rf world_nether
+  - rm -rf world_the_end
+  - rm -rf otd_dungeon
+  - rm -f plugins/CoreProtect/database.db
+  - mkdir world
+  - cd world
+  - mkdir datapacks
+  - cd ..
+  - cp -r iris-datapack.zip world/datapacks/
